@@ -1,0 +1,38 @@
+
+body{
+    font-family: 'Tektur', cursive;
+}
+.cat-img{
+    height: 20vh;
+    width:12vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 90vw;
+    border-radius: 10px;
+    -webkit-box-shadow: 16px 10px 36px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 16px 10px 36px 0px rgba(0,0,0,0.75);
+box-shadow: 16px 10px 36px 0px rgba(0,0,0,0.75);
+background-color: #222222;
+color: white;
+}
+li{
+    margin-right: 5vw;
+    font-size: 1.7vw;
+}
+li span{
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
